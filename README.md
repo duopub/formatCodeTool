@@ -8,6 +8,7 @@ A Tool can format  Java Python C# Swift PHP Ruby HTML Javascript Typescript Json
 ```
 html|javascript|typescript|json|markdown|vue|angular|yaml|graphql
 java|python|c#|swift|php|ruby|apex|xml
+//目前只加了其中的一些, 剩余的一些语言可使用Api进行格式化
 ```
 
 ![use](./src/readme/use.png)
