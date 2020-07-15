@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formatCodesTool</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/gooey.min.css" />
+    <link rel="stylesheet" href="css/livedemo.css" />
+    <link rel="stylesheet" href="css/deep.css" />
+  </head>
+
+  <body>
+    <div id="box">
+      <div id="left">
+        <textarea
+          name="unformat"
+          id="text1"
+          placeholder="put unformated codes here"
+          style="resize: none;"
+        ></textarea>
+      </div>
+      <div id="right">
+        <textarea
+          name="formated"
+          id="text2"
+          style="resize: none;"
+          placeholder="formated codes output here"
+        ></textarea>
+      </div>
+    </div>
+
+    <nav id="gooey-v2">
+      <input
+        type="checkbox"
+        class="menu-open"
+        name="menu-open3"
+        id="menu-open3"
+      />
+      <label class="open-button" for="menu-open3">
+        <span class="burger burger-1"></span>
+        <span class="burger burger-2"></span>
+        <span class="burger burger-3"></span>
+      </label>
+
+      <button
+        href="javascript:;"
+        class="gooey-menu-item"
+        data-value="encodeURIComponent"
+      >
+        encode
+      </button>
+      <button
+        href="javascript:;"
+        class="gooey-menu-item"
+        data-value="decodeURIComponent"
+      >
+        decode
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="html">
+        HTML
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="json">
+        Json
+      </button>
+      <button
+        href="javascript:;"
+        class="gooey-menu-item"
+        data-value="typescript"
+      >
+        ts
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="vue">
+        Vue
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="angular">
+        Angular
+      </button>
+    </nav>
+
+    <nav id="gooey-v">
+      <input
+        type="checkbox"
+        class="menu-open"
+        name="menu-open4"
+        id="menu-open4"
+      />
+      <label class="open-button" for="menu-open4">
+        <span class="burger burger-1"></span>
+        <span class="burger burger-2"></span>
+        <span class="burger burger-3"></span>
+      </label>
+
+      <button
+        href="javascript:;"
+        class="gooey-menu-item"
+        data-value="javascript"
+      >
+        JS
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="java">
+        Java
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="python">
+        Python
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="swift">
+        Swift
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="ruby">
+        Ruby
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="csharp">
+        C#
+      </button>
+      <button href="javascript:;" class="gooey-menu-item" data-value="json">
+        JSON
+      </button>
+    </nav>
+
+    <div id="links">
+      <a href="https://github.com/duoqiang6/formatCodeTool">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-github-copy"></use>
+        </svg>
+      </a>
+    </div>
+
+    <script src="js/iconfont.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/gooey.min.js"></script>
+    <script src="js/basic.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
